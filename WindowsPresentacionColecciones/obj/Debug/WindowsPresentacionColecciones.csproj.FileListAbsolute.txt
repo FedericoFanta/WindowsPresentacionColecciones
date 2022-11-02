@@ -1,0 +1,11 @@
+C:\Users\Federico PC\Desktop\C#\Programacion Orientada a Objetos\WindowsPresentacionColecciones\WindowsPresentacionColecciones\bin\Debug\WindowsPresentacionColecciones.exe.config
+C:\Users\Federico PC\Desktop\C#\Programacion Orientada a Objetos\WindowsPresentacionColecciones\WindowsPresentacionColecciones\bin\Debug\WindowsPresentacionColecciones.exe
+C:\Users\Federico PC\Desktop\C#\Programacion Orientada a Objetos\WindowsPresentacionColecciones\WindowsPresentacionColecciones\bin\Debug\WindowsPresentacionColecciones.pdb
+C:\Users\Federico PC\Desktop\C#\Programacion Orientada a Objetos\WindowsPresentacionColecciones\WindowsPresentacionColecciones\obj\Debug\WindowsPresentacionColecciones.csproj.AssemblyReference.cache
+C:\Users\Federico PC\Desktop\C#\Programacion Orientada a Objetos\WindowsPresentacionColecciones\WindowsPresentacionColecciones\obj\Debug\WindowsPresentacionColecciones.csproj.SuggestedBindingRedirects.cache
+C:\Users\Federico PC\Desktop\C#\Programacion Orientada a Objetos\WindowsPresentacionColecciones\WindowsPresentacionColecciones\obj\Debug\WindowsPresentacionColecciones.Form1.resources
+C:\Users\Federico PC\Desktop\C#\Programacion Orientada a Objetos\WindowsPresentacionColecciones\WindowsPresentacionColecciones\obj\Debug\WindowsPresentacionColecciones.Properties.Resources.resources
+C:\Users\Federico PC\Desktop\C#\Programacion Orientada a Objetos\WindowsPresentacionColecciones\WindowsPresentacionColecciones\obj\Debug\WindowsPresentacionColecciones.csproj.GenerateResource.cache
+C:\Users\Federico PC\Desktop\C#\Programacion Orientada a Objetos\WindowsPresentacionColecciones\WindowsPresentacionColecciones\obj\Debug\WindowsPresentacionColecciones.csproj.CoreCompileInputs.cache
+C:\Users\Federico PC\Desktop\C#\Programacion Orientada a Objetos\WindowsPresentacionColecciones\WindowsPresentacionColecciones\obj\Debug\WindowsPresentacionColecciones.exe
+C:\Users\Federico PC\Desktop\C#\Programacion Orientada a Objetos\WindowsPresentacionColecciones\WindowsPresentacionColecciones\obj\Debug\WindowsPresentacionColecciones.pdb
