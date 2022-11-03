@@ -13,7 +13,7 @@ namespace LibreriaProductos
             Id=id;
             Nombre=nombre;
             Apellido=apellido;
-            comision=33;
+           // Comision=33;
             
 
 
@@ -25,9 +25,7 @@ namespace LibreriaProductos
         public string Apellido { get; set; }
 
         private static decimal comision;
-        public static decimal Comision
-        {
-            get { return comision; }
-        }
+        public static decimal Comision { get; set; }
+       
     }
 }

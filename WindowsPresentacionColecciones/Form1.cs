@@ -80,12 +80,17 @@ namespace WindowsPresentacionColecciones
 
         private void btnCrearEmpleados_Click(object sender, EventArgs e)
         {
+            Empleado.Comision=3;
             Empleado empleado1 = new Empleado(id:32, nombre:"Pepe", apellido:"Jose");
             Empleado empleado2 = new Empleado(id: 32, nombre: "Ramon", apellido: "Perez");
 
             MessageBox.Show(Empleado.Comision.ToString());
 
+            Empleado.Comision=66;
+
             Empleado empleado3 = new Empleado(id: 32, nombre: "Lucas", apellido: "Aerty");
+            
+
             Empleado empleado4 = new Empleado(id: 32, nombre: "Augusto", apellido: "Poliy");
 
             MessageBox.Show(Empleado.Comision.ToString());
