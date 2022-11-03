@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsPresentacionColecciones.Models;
 using WindowsPresentacionColecciones.Colecciones;
+using WindowsPresentacionColecciones.PruebaEstatica;
+using LibreriaProductos;
 
 namespace WindowsPresentacionColecciones
 {
@@ -23,6 +25,7 @@ namespace WindowsPresentacionColecciones
 
         private void btnGuardarAlumnosLista_Click(object sender, EventArgs e)
         {
+            List<Producto> productos = AdminProducto.TraerPorCategoria("Hardware");
             /*
             //declarar y crear la lista
             productos = new List<Producto>();
@@ -47,9 +50,9 @@ namespace WindowsPresentacionColecciones
         {
             List<Producto> lista;
 
-            AdminProducto adminProducto = new AdminProducto();
+            //AdminProducto adminProducto = new AdminProducto();
 
-            lista=adminProducto.Carga();
+            lista=AdminProducto.Carga();
 
 
             gridProductos.DataSource = lista;
@@ -58,6 +61,34 @@ namespace WindowsPresentacionColecciones
             {
                 lstPrecioProducto.Items.Add(producto.Nombre + "Precio:" +producto.Precio);  
             }   
+        }
+
+        private void btnCrearClientes_Click(object sender, EventArgs e)
+        {
+            Cliente cliente1 = new Cliente ("Gaby");
+            Cliente cliente2 = new Cliente("Gustavo");
+
+            MessageBox.Show(Cliente.Instancias.ToString());
+
+            Cliente cliente3 = new Cliente("ASD");
+            Cliente cliente4 = new Cliente("Alejo");
+
+            MessageBox.Show(Cliente.Instancias.ToString());
+
+
+        }
+
+        private void btnCrearEmpleados_Click(object sender, EventArgs e)
+        {
+            Empleado empleado1 = new Empleado(id:32, nombre:"Pepe", apellido:"Jose");
+            Empleado empleado2 = new Empleado(id: 32, nombre: "Ramon", apellido: "Perez");
+
+            MessageBox.Show(Empleado.Comision.ToString());
+
+            Empleado empleado3 = new Empleado(id: 32, nombre: "Lucas", apellido: "Aerty");
+            Empleado empleado4 = new Empleado(id: 32, nombre: "Augusto", apellido: "Poliy");
+
+            MessageBox.Show(Empleado.Comision.ToString());
         }
     }
 }

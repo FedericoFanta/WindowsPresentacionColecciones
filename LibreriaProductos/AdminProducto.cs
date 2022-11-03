@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WindowsPresentacionColecciones.Models;
 
-namespace WindowsPresentacionColecciones.Colecciones
+namespace LibreriaProductos
 {
     /// <summary>
     /// Antes estaba como clase concreta. Ahora es Estática y nos permite administrar operaciones ABM de Producto

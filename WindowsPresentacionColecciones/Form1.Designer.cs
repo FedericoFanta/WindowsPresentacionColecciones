@@ -32,6 +32,8 @@
             this.btnMostrar = new System.Windows.Forms.Button();
             this.gridProductos = new System.Windows.Forms.DataGridView();
             this.lstPrecioProducto = new System.Windows.Forms.ListBox();
+            this.btnCrearClientes = new System.Windows.Forms.Button();
+            this.btnCrearEmpleados = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridProductos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,11 +73,33 @@
             this.lstPrecioProducto.Size = new System.Drawing.Size(120, 95);
             this.lstPrecioProducto.TabIndex = 3;
             // 
+            // btnCrearClientes
+            // 
+            this.btnCrearClientes.Location = new System.Drawing.Point(518, 37);
+            this.btnCrearClientes.Name = "btnCrearClientes";
+            this.btnCrearClientes.Size = new System.Drawing.Size(155, 23);
+            this.btnCrearClientes.TabIndex = 4;
+            this.btnCrearClientes.Text = "Crear Clientes";
+            this.btnCrearClientes.UseVisualStyleBackColor = true;
+            this.btnCrearClientes.Click += new System.EventHandler(this.btnCrearClientes_Click);
+            // 
+            // btnCrearEmpleados
+            // 
+            this.btnCrearEmpleados.Location = new System.Drawing.Point(518, 87);
+            this.btnCrearEmpleados.Name = "btnCrearEmpleados";
+            this.btnCrearEmpleados.Size = new System.Drawing.Size(155, 23);
+            this.btnCrearEmpleados.TabIndex = 5;
+            this.btnCrearEmpleados.Text = "Crear Empleados";
+            this.btnCrearEmpleados.UseVisualStyleBackColor = true;
+            this.btnCrearEmpleados.Click += new System.EventHandler(this.btnCrearEmpleados_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCrearEmpleados);
+            this.Controls.Add(this.btnCrearClientes);
             this.Controls.Add(this.lstPrecioProducto);
             this.Controls.Add(this.gridProductos);
             this.Controls.Add(this.btnMostrar);
@@ -93,6 +117,8 @@
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.DataGridView gridProductos;
         private System.Windows.Forms.ListBox lstPrecioProducto;
+        private System.Windows.Forms.Button btnCrearClientes;
+        private System.Windows.Forms.Button btnCrearEmpleados;
     }
 }
 
